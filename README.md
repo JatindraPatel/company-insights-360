@@ -43,8 +43,6 @@ company-insights-360/
 │   └── departments.csv         # 5 departments — manager, budget, headcount
 ├── analysis_script.ipynb       # Full Python + SQL analysis pipeline (runs end-to-end)
 ├── Company_Insights_360.pbix   # Power BI dashboard (4 report pages)
-├── exports/                    # Query results exported as CSV, ready for Power BI refresh
-├── assets/                     # Auto-generated charts (correlation, trends, forecast)
 ├── requirements.txt
 └── README.md
 ```
@@ -59,7 +57,7 @@ company-insights-360/
 | Visualization | Matplotlib, Seaborn |
 | Forecasting | scikit-learn (Linear Regression) |
 | BI / Dashboard | Power BI, DAX |
-| Notebook | Jupyter |
+| Notebook | Jupyter | Google Colab
 
 ## 🔍 What's in the Analysis
 
@@ -125,6 +123,7 @@ pip install -r requirements.txt
 
 # 3. Run the notebook end-to-end
 jupyter notebook analysis_script.ipynb
+Google Colab analysis_script.ipynb
 # (Run All — it rebuilds company_insights.db, all charts in assets/, and all exports/*.csv)
 
 # 4. Open the dashboard
