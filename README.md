@@ -1,3 +1,52 @@
+<div align="center">
+
+# 🧠 Company Insights 360°
+### An End-to-End HR, Sales & Performance Analytics Project
+
+**Python · SQL · Power BI · Statistical Analysis · Forecasting**
+
+[![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-Data%20Wrangling-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![SQLite](https://img.shields.io/badge/SQL-SQLite-003B57?logo=sqlite&logoColor=white)](https://www.sqlite.org/)
+[![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-Forecasting-F7931E?logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JatindraPatel/company-insights-360/blob/main/analysis_script.ipynb)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+**[GitHub](https://github.com/JatindraPatel) · [LinkedIn](https://linkedin.com/in/jatindrapatel/) · [Portfolio](https://jatindraportfolio.vercel.app/)**
+
+</div>
+
+---
+
+## 📌 Overview
+
+**Company Insights 360°** is a simulated organization's analytics stack, built to show the
+full journey data takes from raw files to a boardroom-ready dashboard:
+
+CSV extracts → Data validation & cleaning → SQLite warehouse → SQL analysis
+→ Statistical checks & a sales forecast → Charts → Power BI dashboard
+
+
+It covers three business domains in one connected model — **HR** (salary, performance,
+tenure), **Sales** (revenue, profit, regions, discounts), and **Operations** (department
+budgets vs. actual spend) — and answers each question with SQL first, Python second,
+rather than hard-coding numbers.
+
+## 🗂️ Project Structure
+
+company-insights-360/
+├── data/
+│ ├── employees.csv # 100 employees — dept, role, salary, tenure, performance
+│ ├── sales.csv # 1,000 orders — region, category, sales, profit, discount
+│ └── departments.csv # 5 departments — manager, budget, headcount
+├── analysis_script.ipynb # Full Python + SQL analysis pipeline (runs end-to-end)
+├── Company_Insights_360.pbix # Power BI dashboard (4 report pages)
+├── exports/ # Query results exported as CSV, ready for Power BI refresh
+├── assets/ # Auto-generated charts (correlation, trends, forecast)
+├── requirements.txt
+└── README.md
+
 
 ## 🧩 Tech Stack
 
