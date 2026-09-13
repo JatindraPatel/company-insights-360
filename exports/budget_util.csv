@@ -1,0 +1,6 @@
+Department,Budget,Planned_Headcount,Actual_Salary_Cost,Budget_Utilization_Pct
+Marketing,850000,10,1762800.0,207.39
+IT,1000000,25,1851500.0,185.15
+Finance,900000,15,1443600.0,160.4
+HR,800000,20,1179100.0,147.39
+Sales,1200000,35,1751300.0,145.94
