@@ -37,16 +37,15 @@ rather than hard-coding numbers.
 
 company-insights-360/
 ├── data/
-│ ├── employees.csv # 100 employees — dept, role, salary, tenure, performance
-│ ├── sales.csv # 1,000 orders — region, category, sales, profit, discount
-│ └── departments.csv # 5 departments — manager, budget, headcount
-├── analysis_script.ipynb # Full Python + SQL analysis pipeline (runs end-to-end)
-├── Company_Insights_360.pbix # Power BI dashboard (4 report pages)
-├── exports/ # Query results exported as CSV, ready for Power BI refresh
-├── assets/ # Auto-generated charts (correlation, trends, forecast)
+│   ├── employees.csv          # 100 employees — dept, role, salary, tenure, performance
+│   ├── sales.csv               # 1,000 orders — region, category, sales, profit, discount
+│   └── departments.csv         # 5 departments — manager, budget, headcount
+├── analysis_script.ipynb       # Full Python + SQL analysis pipeline (runs end-to-end)
+├── Company_Insights_360.pbix   # Power BI dashboard (4 report pages)
+├── exports/                    # Query results exported as CSV, ready for Power BI refresh
+├── assets/                     # Auto-generated charts (correlation, trends, forecast)
 ├── requirements.txt
 └── README.md
-
 
 ## 🧩 Tech Stack
 
