@@ -57,7 +57,7 @@ company-insights-360/
 | Visualization | Matplotlib, Seaborn |
 | Forecasting | scikit-learn (Linear Regression) |
 | BI / Dashboard | Power BI, DAX |
-| Notebook | Jupyter | Google Colab
+| Notebook | Jupyter | Google Colab |
 
 ## 🔍 What's in the Analysis
 
